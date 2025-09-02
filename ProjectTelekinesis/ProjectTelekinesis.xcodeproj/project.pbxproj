@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D38A63AB2DA4B674001F65EF /* Shout in Frameworks */ = {isa = PBXBuildFile; productRef = D38A63AA2DA4B674001F65EF /* Shout */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D38A63912DA4AC3A001F65EF /* ProjectTelekinesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTelekinesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38A63AB2DA4B674001F65EF /* Shout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = ProjectTelekinesis;
 			packageProductDependencies = (
+				D38A63AA2DA4B674001F65EF /* Shout */,
 			);
 			productName = ProjectTelekinesis;
 			productReference = D38A63912DA4AC3A001F65EF /* ProjectTelekinesis.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = D38A63882DA4AC3A001F65EF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D38A63A92DA4B674001F65EF /* XCRemoteSwiftPackageReference "Shout" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D38A63922DA4AC3A001F65EF /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D38A63A92DA4B674001F65EF /* XCRemoteSwiftPackageReference "Shout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/glushchenko/Shout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D38A63AA2DA4B674001F65EF /* Shout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D38A63A92DA4B674001F65EF /* XCRemoteSwiftPackageReference "Shout" */;
+			productName = Shout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D38A63892DA4AC3A001F65EF /* Project object */;
 }
